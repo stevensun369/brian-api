@@ -1,3 +1,4 @@
 /tmp
-env.go
+/db/env.go
+env.txt
 main

@@ -2,7 +2,12 @@ module api
 
 go 1.18
 
-require github.com/gofiber/fiber/v2 v2.38.1
+require (
+	github.com/brianvoe/sjwt v0.5.1
+	github.com/deta/deta-go v1.0.0
+	github.com/gofiber/fiber/v2 v2.38.1
+	golang.org/x/crypto v0.0.0-20220214200702-86341886e292
+)
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
